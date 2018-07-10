@@ -18,7 +18,9 @@
               placeholder="Email">
           <div
               class="invalid-feedback"
-              v-show="errors.has('email')">{{ errors.first('email') }}</div>
+              v-show="errors.has('email')">
+            {{ errors.first('email') }}
+          </div>
         </div>
       </div>
       <div class="form-group row justify-content-center">
@@ -32,7 +34,9 @@
               placeholder="Password">
           <div
               class="invalid-feedback"
-              v-show="errors.has('password')">{{ errors.first('password') }}</div>
+              v-show="errors.has('password')">
+            {{ errors.first('password') }}
+          </div>
         </div>
       </div>
       <div class="form-group row justify-content-center">
@@ -40,7 +44,9 @@
           <button
               class="btn w-100"
               type="submit"
-              name="login-button">Log In</button>
+              name="login-button">
+            Log In
+          </button>
         </div>
       </div>
       <div>
@@ -53,7 +59,9 @@
             <button
                 class="btn"
                 type="submit"
-                name="new-account-button">Create New Account</button>
+                name="new-account-button">
+              Create New Account
+            </button>
           </div>
         </div>
       </div>

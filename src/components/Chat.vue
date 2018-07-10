@@ -24,7 +24,9 @@
           <button
               class="btn w-100"
               type="submit"
-              name="submit-message-button">Send Message</button>
+              name="submit-message-button">
+            Send Message
+          </button>
         </div>
       </div>
       <div class="row justify-content-center">
