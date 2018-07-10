@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="2">
+
+  <testsuite name="login.spec"
+    errors="1" failures="1" hostname="" id="" package="login.spec" skipped="1"
+    tests="2" time="14.09" timestamp="Tue, 10 Jul 2018 22:14:26 GMT">
+  
+    <testcase name="login test" classname="login.spec" time="14.09" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;#chat-welcome-header&gt; contains text: &#34;Welcome&#34;. Element could not be located.">    at Object.loginTest [as login test] (/var/www/vue-example/test/e2e/specs/login.spec.js:13:15)
+    at process._tickCallback (internal/process/next_tick.js:150:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#chat-message-area&#34; using: css selector
+    at Object.sendMessageTest [as send message test] (/var/www/vue-example/test/e2e/specs/chat.spec.js:10:8)
+    at Module.call (/var/www/vue-example/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /var/www/vue-example/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/var/www/vue-example/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/var/www/vue-example/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/var/www/vue-example/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /var/www/vue-example/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/var/www/vue-example/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/var/www/vue-example/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &#34;#chat-welcome-header&#34; using: css selector
+    at F.command (/var/www/vue-example/node_modules/nightwatch/lib/api/assertions/containsText.js:46:21)
+    at F.module.exports.BaseAssertion._scheduleAssertion (/var/www/vue-example/node_modules/nightwatch/lib/core/assertion.js:87:17)
+    at F.module.exports.BaseAssertion._executeCommand (/var/www/vue-example/node_modules/nightwatch/lib/core/assertion.js:82:17)
+    at AssertionInstance.commandFn [as _commandFn] (/var/www/vue-example/node_modules/nightwatch/lib/core/assertion.js:180:21)
+    at AsyncTree.runCommand (/var/www/vue-example/node_modules/nightwatch/lib/core/queue.js:154:30)
+    at AsyncTree.runChildNode (/var/www/vue-example/node_modules/nightwatch/lib/core/queue.js:114:8)
+    at AsyncTree.walkDown (/var/www/vue-example/node_modules/nightwatch/lib/core/queue.js:80:10)
+    at AsyncTree.walkUp (/var/www/vue-example/node_modules/nightwatch/lib/core/queue.js:97:8)
+    at AsyncTree.walkDown (/var/www/vue-example/node_modules/nightwatch/lib/core/queue.js:90:12)
+    at AsyncTree.traverse (/var/www/vue-example/node_modules/nightwatch/lib/core/queue.js:73:8)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="error login test" classname="login.spec">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
