@@ -10,7 +10,7 @@ module.exports = {
       .waitForElementVisible('button[name=login-button]', 1000)
       .click('button[name=login-button]')
       .pause(2000)
-      .assert.containsText('#chat-welcome-header', 'Welcome')
+      .assert.containsText('span', 'Welcome')
       .end();
   },
 

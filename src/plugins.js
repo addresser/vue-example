@@ -3,7 +3,6 @@ import injector from '@/service-provider'
 import ru from 'vee-validate/dist/locale/ru'
 import VeeValidate, { Validator } from 'vee-validate'
 
-import 'normalize.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 

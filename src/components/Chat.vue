@@ -1,9 +1,10 @@
 <template>
   <div>
     <div class="row justify-content-center mt-5 mb-4">
-      <h2
-          id="chat-welcome-header"
-          v-if="personalData.name">Welcome, {{ personalData.name }}!</h2>
+      <span
+          v-if="personalData.name">
+        Welcome, {{ personalData.name }}!
+      </span>
     </div>
     <form
         id="chat-form"
